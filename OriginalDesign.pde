@@ -1,11 +1,22 @@
-void setup()
+  void setup()
 {
-  size(100,100);
+  size(400);
 }
-void draw()
+  void draw()
 {
-  ellipse(50,50,50,50);
+  head();
+  face();
 }
-
-
+  void face()
+{
+  fill(225,0,0);
+  eclipse(20,30,10,30,20);
+  stroke(220,0,0);
+}
+  void head()
+{
+  fill(0,225,0);
+  arc(2,10,2,0,2);
+}
+;
 
